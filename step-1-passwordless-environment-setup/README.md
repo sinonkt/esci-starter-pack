@@ -21,7 +21,7 @@ Press Enter, Enter for accepting default key's Location and no passphrase for ke
 ![Alt text](/misc/images/ssh-key-pair-prompt.png "ssh-keygen prompt")
 ![Alt text](/misc/images/key-pair-generated.png "key-pair generated")
 
-Now we've Private Key locate at `~/.ssh/id_rsa` and Public key at `~/.ssh/id_rsa.pub`
+Now we've Private Key locate at `~/.ssh/id_rsa` and Public key at `~/.ssh/id_rsa.pub`.
 We should keep `~/.ssh/id_rsa` secure and backup whenever we reinstall OS or move to other laptop. 
 
 ## Setup Passwordless#2 Copy Public key to e-Sci
