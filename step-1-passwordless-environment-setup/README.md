@@ -32,5 +32,5 @@ Copy Public key to e-Science server via command
 ssh-copy-id -i ~/.ssh/id_rsa your_account_name@escience0.sc.chula.ac.th
 ```
 Provide password only once.
-![Alt text](/misc/images/ssh-copy.png "ssh-copy prompt")
+![Alt text](/misc/images/ssh-copy.gif "ssh-copy prompt")
 
