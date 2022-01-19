@@ -22,7 +22,8 @@ Press Enter, Enter for accepting default key's Location and no passphrase for ke
 ![Alt text](/misc/images/key-pair-generated.png "key-pair generated")
 
 Now we've Private Key locate at `~/.ssh/id_rsa` and Public key at `~/.ssh/id_rsa.pub`.
-We should keep `~/.ssh/id_rsa` secure and backup whenever we reinstall OS or move to other laptop. 
+
+Notes: We should keep `~/.ssh/id_rsa` secure and backup whenever we reinstall OS or move to other laptop. 
 
 ## Setup Passwordless#2 Copy Public key to e-Sci
 
@@ -31,6 +32,8 @@ Copy Public key to e-Science server via command
 ```
 ssh-copy-id -i ~/.ssh/id_rsa your_account_name@escience0.sc.chula.ac.th
 ```
+
 Provide password only once.
+
 ![Alt text](/misc/images/ssh-copy.gif "ssh-copy prompt")
 
