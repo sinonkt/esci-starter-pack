@@ -9,26 +9,24 @@ Server Specification: https://phat-srimanobhas.gitbook.io/cu-e-science/introduct
 ## Useful commands
 
 ```
-sinfo
+> sinfo
 ```
-![Alt text](/misc/images/sinfo.gif "sinfo")
-
-
+![Alt text](/misc/images/sinfo.png "sinfo")
 ```
-squeue -u $(whoami)
+> squeue -u $(whoami)
 ```
 ![Alt text](/misc/images/watch_squeue.gif "watch squeue")
 
 ```
-scontrol show job 115927
+> scontrol show job 115927
 ```
-![Alt text](/misc/images/115927.gif "115927")
+![Alt text](/misc/images/115927.jpg "115927")
 
 ```
-scancel 115927
+> scancel 115927
 ```
 
-Example sbatch script for GPU Task
+## Example sbatch script for GPU Task
 
 ```bash
 #!/bin/bash

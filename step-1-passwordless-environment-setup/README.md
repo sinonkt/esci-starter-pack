@@ -46,5 +46,6 @@ sudo vim / sudo nano at file `/etc/hosts` and add host ip nickname like followin
 ```
 161.200.116.61 esci
 ```
+![Alt text](/misc/images/etc_hosts.jpg "etc_hosts")
 
 Done!! :))
