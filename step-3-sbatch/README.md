@@ -47,3 +47,10 @@ python main.py
 ```
 sbatch myjob.sh 
 ```
+
+for tracking resource consumption, ssh into your allocated node
+```
+ssh gpu-1-05
+top -u krawicwt
+nvidia-smi
+```
