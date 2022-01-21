@@ -54,6 +54,8 @@ mu_local
 ######################### local modules #########################
 ```
 
+![Alt text](/misc/images/local_modules.jpg "Local Modules")
+
 # use EasyBuild
 
 ```
