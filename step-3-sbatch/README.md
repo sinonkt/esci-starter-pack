@@ -4,7 +4,7 @@ see also [e-Science official docs](https://phat-srimanobhas.gitbook.io/cu-e-scie
 
 QoS & Partition: https://phat-srimanobhas.gitbook.io/cu-e-science/slurm/slurm-qos-and-partition
 
-Spec server: https://phat-srimanobhas.gitbook.io/cu-e-science/introduction-to-our-cluster/our-resources
+Server Specification: https://phat-srimanobhas.gitbook.io/cu-e-science/introduction-to-our-cluster/our-resources
 
 ## Useful commands
 
