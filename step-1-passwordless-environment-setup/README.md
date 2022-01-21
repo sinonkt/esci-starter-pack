@@ -37,3 +37,12 @@ Provide password only once.
 
 ![Alt text](/misc/images/ssh-copy.gif "ssh-copy prompt")
 
+## Set Alias name for convinient
+
+sudo vim / sudo nano at file `/etc/hosts` and add host ip nickname like following.
+
+```
+161.200.116.61 esci
+```
+
+Done!! :))
