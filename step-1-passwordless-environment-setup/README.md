@@ -2,7 +2,9 @@
 
 ![Alt text](/misc/images/passwordless-login.gif "Passwordless Login")
 
-## Setup Passwordless#1 generate Public key & Private Key (PKI)
+3 steps
+
+## #1 Setup Passwordless, generate Public key & Private Key (PKI)
 
 Feels free to skipped this step if you already have Public key & Private Key pair. You could check if there is any existing key pair by following cmd. 
 
@@ -25,7 +27,7 @@ Now we've Private Key locate at `~/.ssh/id_rsa` and Public key at `~/.ssh/id_rsa
 
 Notes: We should keep `~/.ssh/id_rsa` secure and backup whenever we reinstall OS or move to other laptop. 
 
-## Setup Passwordless#2 Copy Public key to e-Sci
+## #2 Setup Passwordless, Copy Public key to e-Sci
 
 Copy Public key to e-Science server via command
 
@@ -37,7 +39,7 @@ Provide password only once.
 
 ![Alt text](/misc/images/ssh-copy.gif "ssh-copy prompt")
 
-## Set Alias name for convinient
+## #3 Set Alias name for convinient
 
 sudo vim / sudo nano at file `/etc/hosts` and add host ip nickname like following.
 
