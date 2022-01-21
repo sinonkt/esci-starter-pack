@@ -54,6 +54,12 @@ mu_local
 ######################### local modules #########################
 ```
 
+after that re-login then run `module av` or  
+```
+source ~/.bashrc
+module av
+```
+
 ![Alt text](/misc/images/local_modules.jpg "Local Modules")
 
 # use EasyBuild
