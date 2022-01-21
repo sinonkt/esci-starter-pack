@@ -1,1 +1,3 @@
 # esci-starter-pack
+
+[vscode-sftp-sync Fixes](https://stackoverflow.com/questions/67506693/error-no-such-file-sftp-liximomo-extension)
