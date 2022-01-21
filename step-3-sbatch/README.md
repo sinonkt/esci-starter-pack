@@ -11,7 +11,7 @@ Server Specification: https://phat-srimanobhas.gitbook.io/cu-e-science/introduct
 ```
 sinfo
 ```
-![Alt text](/misc/images/sinfo.gif "sinfo")
+![Alt text](/misc/images/sinfo.png "sinfo")
 
 
 ```
@@ -22,7 +22,7 @@ squeue -u $(whoami)
 ```
 scontrol show job 115927
 ```
-![Alt text](/misc/images/115927.gif "115927")
+![Alt text](/misc/images/115927.jpg "115927")
 
 ```
 scancel 115927
