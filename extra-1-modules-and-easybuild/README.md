@@ -72,4 +72,4 @@ then software build process is just one line like following.
 eb Julia-1.7.1-linux-x86_64.eb --robot
 ```
 
-if their is any problem, Don't hesitate to ping me :)) 
+if there is any problem, Don't hesitate to ping me :)) 
