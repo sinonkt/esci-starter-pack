@@ -17,9 +17,9 @@ squeue -u $(whoami)
 ```
 
 ```
-scontrol show job
+scontrol show job 115927
 ```
 
 ```
-scancel 
+scancel 115927
 ```
