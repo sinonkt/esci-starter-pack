@@ -28,6 +28,7 @@ Server Specification: https://phat-srimanobhas.gitbook.io/cu-e-science/introduct
 
 ## Example sbatch script for GPU Task
 
+`myjob.sh`
 ```bash
 #!/bin/bash
 #SBATCH --partition=cpugpu
@@ -41,4 +42,15 @@ conda activate optml
 ml purge
 ml load GCC/8.3.0 CUDA/11.4.1 cuDNN/8.2.2.26-CUDA-11.4.1
 python main.py
+```
+
+```
+sbatch myjob.sh 
+```
+
+for tracking resource consumption, ssh into your allocated node
+```
+ssh gpu-1-05
+top -u krawicwt
+nvidia-smi
 ```
