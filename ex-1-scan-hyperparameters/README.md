@@ -1,7 +1,7 @@
 # esci-starter-pack
 
 ![Alt text](/misc/images/tensorflow.jpeg "AI Workflow")
-![Alt text](/misc/images/hyperparameters.jpeg "Hyperparameters tuning")
+![Alt text](/misc/images/hyperparameters.png "Hyperparameters tuning")
 
 ```nextflow
 def ConvLayers = Channel.from(['None', 'conv_32_3x3,maxpooling_2x2', 'conv_32_3x3,maxpooling_2x2,conv_32_3x3,maxpooling_2x2' ])
